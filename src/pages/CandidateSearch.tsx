@@ -26,7 +26,7 @@ const CandidateSearch = () => {
   };
 
   const searchForUsers = async () => {
-    const data: Candidate[] = await searchGithub();
+    const data: Candidate[] = await searchGithub(currentUser.login || '');
 
     setResults(data);
 
