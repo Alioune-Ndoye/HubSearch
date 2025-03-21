@@ -22,7 +22,7 @@ Installation
 sh
 Copy
 Edit
-git clone https://github.com/your-username/candidate-search-app.git  
+git clone https:git@github.com:Alioune-Ndoye/HubSearch.git 
 cd candidate-search-app  
 npm install  
 npm run dev  
